@@ -19,5 +19,6 @@ module.exports = {
     ],
     'import/no-absolute-path': 'off',
     'react/jsx-no-target-blank': 'off',
+    'react/prop-types': 'off',
   },
 }
