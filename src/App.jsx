@@ -1,8 +1,15 @@
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Portfolio from './pages/Portfolio'
 import './App.css'
 
 function App () {
   return (
-    <h1 className='font-mono'>Hello World!</h1>
+    <div className='flex flex-col m-auto text-white max-w-[1023px]'>
+      <Header />
+      <Portfolio />
+      <Footer />
+    </div>
   )
 }
 
