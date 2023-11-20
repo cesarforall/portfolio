@@ -1,57 +1,31 @@
+import todoMachinePNG from '../assets/todo-machine.png'
+import onlineShopPNG from '../assets/online-shop.png'
+
 export const PROJECTS = [
   {
-    name: 'Nombre del proyecto',
-    description: 'Descripción del proyecto',
+    name: 'TODO Machine',
+    description: 'Web app to manage tasks',
+    imgLink: todoMachinePNG,
     technologies: [
       'React',
       'JavaScript',
       'HTML',
       'CSS'
     ],
-    link: '/'
+    appLink: 'https://cesarforall.github.io/todo-machine/',
+    repoLink: 'https://github.com/cesarforall/todo-machine'
   },
   {
-    name: 'Nombre del proyecto',
-    description: 'Descripción del proyecto',
+    name: 'Online Shop',
+    description: 'Online shop demo with filters and checkout',
+    imgLink: onlineShopPNG,
     technologies: [
       'React',
       'JavaScript',
       'HTML',
       'CSS'
     ],
-    link: '/'
-  },
-  {
-    name: 'Nombre del proyecto',
-    description: 'Descripción del proyecto',
-    technologies: [
-      'React',
-      'JavaScript',
-      'HTML',
-      'CSS'
-    ],
-    link: '/'
-  },
-  {
-    name: 'Nombre del proyecto',
-    description: 'Descripción del proyecto',
-    technologies: [
-      'React',
-      'JavaScript',
-      'HTML',
-      'CSS'
-    ],
-    link: '/'
-  },
-  {
-    name: 'Nombre del proyecto',
-    description: 'Descripción del proyecto',
-    technologies: [
-      'React',
-      'JavaScript',
-      'HTML',
-      'CSS'
-    ],
-    link: '/'
+    appLink: 'https://cesarforall.github.io/todo-machine/',
+    repoLink: 'https://github.com/cesarforall/todo-machine'
   }
 ]
