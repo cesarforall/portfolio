@@ -1,4 +1,3 @@
-import { ArrowRightIcon } from '@heroicons/react/24/solid'
 import githubLogoSvg from '../../assets/github-mark.svg'
 import linkedinLogoPng from '../../assets/LI-In-Bug.png'
 import cesarLogoJpg from '../../assets/tiny-cesar-2020-1080_74KB.jpg'
@@ -15,12 +14,11 @@ function Footer () {
       </article>
       <section className='flex flex-col gap-5'>
         <div className='flex gap-2 items-center'>
-          <h5 className='text-2xl font-bold'>Get in youch</h5>
-          <ArrowRightIcon className='w-8 h-8 text-blue-500' />
+          <h5 className='text-2xl font-bold underline underline-offset-8'>Get in youch</h5>
         </div>
         <ul className='flex gap-4 items-center'>
-          <li><a className='flex gap-1 items-center' href='https://www.linkedin.com/in/cesaralmeidadev/' target='_blank' ><img className='w-10' src={linkedinLogoPng} alt='' />Ir a LinkedIn</a></li>
-          <li><a className='flex gap-1 items-center' href='https://github.com/cesarforall' target='_blank' ><img className='w-10 h-10' src={githubLogoSvg} alt='' />Ir a GitHub</a></li>
+          <li><a className='flex gap-1 items-center' href='https://www.linkedin.com/in/cesaralmeidadev/' target='_blank'><img className='w-10' src={linkedinLogoPng} alt='' />Ir a LinkedIn</a></li>
+          <li><a className='flex gap-1 items-center' href='https://github.com/cesarforall' target='_blank'><img className='w-10 h-10' src={githubLogoSvg} alt='' />Ir a GitHub</a></li>
         </ul>
       </section>
     </footer>
