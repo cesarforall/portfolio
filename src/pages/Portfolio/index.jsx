@@ -9,7 +9,7 @@ function Portfolio () {
       <ul className='grid grid-cols-autoFit200 p-4 gap-3'>
         {
             PROJECTS.map((project, index) => <ProjectCard key={index} project={project} />)
-          }
+        }
       </ul>
     </section>
   )
