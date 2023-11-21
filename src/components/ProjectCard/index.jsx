@@ -2,7 +2,7 @@ import { PlayIcon } from '@heroicons/react/24/outline'
 import githubLogoSvg from '../../assets/github-mark.svg'
 
 function ProjectCard ({ project }) {
-  const { name, description, imgLink, technologies, appLink } = project
+  const { name, description, imgLink, technologies, appLink, repoLink } = project
 
   return (
     <li className='max-w-md grid gap-1 h-[360px] bg-[#2d343f] rounded-3xl overflow-hidden p-4'>
@@ -19,7 +19,7 @@ function ProjectCard ({ project }) {
           <PlayIcon className='w-8 h-8' />
           <p>See project</p>
         </a>
-        <a className='flex gap-2 cursor-pointer items-center' href={appLink} target='_blank'>
+        <a className='flex gap-2 cursor-pointer items-center' href={repoLink} target='_blank'>
           <img className='w-8 h-8' src={githubLogoSvg} alt='github logo' />
           <p className='leading-normal' style={{ lineHeight: 1 }}>See GitHub repository</p>
         </a>
